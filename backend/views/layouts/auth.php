@@ -16,13 +16,12 @@ $this->beginContent(viewFile: '@backend/views/layouts/base.php')
 
 
 <main class="d-flex">
-    <?php echo $this->render(view: '_sidebar') ?>
-    <!-- qui prende la sidebar -->
+
     <div class="content-wrapper p-3">
 
         <?= Alert::widget() ?>
         <?= $content ?>
     </div>
 </main>
-
+</div>
 <?php $this->endContent() ?>
