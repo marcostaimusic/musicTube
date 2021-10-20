@@ -23,7 +23,7 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<header class="p-5">
+<header class="p-2">
     <?php echo $this->render(view: '_header') ?>
 </header>
 
