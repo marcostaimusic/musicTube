@@ -12,7 +12,7 @@
             ],
             [
                 'label' => 'Videos',
-                'url' => ['/video/create']
+                'url' => ['/video/index']
             ]
         ]
     ]) ?>
