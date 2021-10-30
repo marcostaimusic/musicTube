@@ -132,7 +132,7 @@ class VideoController extends Controller
      * @return Video the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($video_id)
+    protected function findModel($id)
     {
         if (($model = Video::findOne($id)) !== null) {
             return $model;

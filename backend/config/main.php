@@ -45,6 +45,7 @@ return [
             'showScriptName' => false,
             'rules' => [],
         ],
+        // append a timestamp to css loading to prevent need to empty the cache to show current css styles
         'assetManager' => [
             'appendTimestamp' => true
         ]
